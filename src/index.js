@@ -36,6 +36,7 @@ const validarTexto = () => {
     let expresionTexto = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s.,;:!?¿¡()"'’-]+$/;
     return expresionTexto.test(entrada_texto.value.trim());
 };
+
 btn_limpiar.addEventListener('click', () => {
     entrada_texto.value = '';
     entrada_palabra.value = '';
