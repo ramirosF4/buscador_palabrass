@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 1</title>
+    <link rel="icon" href="./public/img/favicon/fabi1.jpeg" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="row text-center w-100">
+            <div class="col-12 col-md-6 mx-auto mt-4">
+                <h1>Buscador de palabras</h1>
+                <div class="mb-3 text-start">
+                    <label for="texto" class="form-label"><h6>Ingresa tu texto</h6></label>
+                    <input type="text" class="form-control form-control-sm" id="texto" placeholder="Ingresa tu texto">
+                </div>
+
+                <div class="mb-3 text-start">
+                    <label for="palabra" class="form-label">
+                        <h6> ¿Qué deseas buscar? </h6>
+                    </label>
+                    <input type="text" class="form-control form-control-sm" id="palabra" placeholder="Escribe una palabra">
+                </div>
+                <label for="mostrarPalabras"><h1>Palabras encontradas </h1></label>
+                <textarea id="mostrarPalabras" class="form-control" name="message" rows="4" cols="50" readonly></textarea>
+                <hr>
+                <button id="btn_buscar" class="btn btn-success me-2">
+                    <i class="fa-solid fa-magnifying-glass me-1"></i> Buscar
+                </button>
+                <button id="btn_eliminar" class="btn btn-danger"> 
+                   <i class="fa-solid fa-eraser me-1"></i> Limpiar
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="./bundle.js"></script>
+</body>
+</html>
