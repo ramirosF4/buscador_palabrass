@@ -107,5 +107,5 @@ btn_remplazar.addEventListener('click', () => {
         mostrarPalabras.value = `Palabra buscada: ${palabraBuscar}\nReemplazada por: ${palabraNueva}\n\nTexto final:\n${textoReemplazado}`;
     }
 
-    msj_succes('¡Reemplazo exitoso!', 'El texto ha sido actualizado correctamente.');
+    msj_succes('Reemplazadoo exitosamente!', '(:');
 });
