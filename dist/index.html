@@ -23,11 +23,23 @@
                     </label>
                     <input type="text" class="form-control form-control-sm" id="palabra" placeholder="Escribe una palabra">
                 </div>
+                <div class="mb-3 text-start">
+                    <label for="palabra" class="form-label">
+                        <h6> ¿Qué palabra deseas remplazar? </h6>
+                    </label>
+                    <input type="text" class="form-control form-control-sm" id="palabraRemplazar" placeholder="Escribe una palabra para remplazar">
+                </div>
                 <label for="mostrarPalabras"><h1>Palabras encontradas </h1></label>
                 <textarea id="mostrarPalabras" class="form-control" name="message" rows="4" cols="50" readonly></textarea>
                 <hr>
+                <label for="mostrarTextoPalabras"><h1>Palabras remplazadas </h1></label>
+                <textarea id="mostrarTextoPalabras" class="form-control" name="message" rows="4" cols="50" readonly></textarea>
+                <hr>
                 <button id="btn_buscar" class="btn btn-success me-2">
                     <i class="fa-solid fa-magnifying-glass me-1"></i> Buscar
+                </button>
+                <button id="btn_remplazar" class="btn btn-warning me-2">
+                    <i class="fa-solid fa-reply me-1"></i> Remplazar
                 </button>
                 <button id="btn_eliminar" class="btn btn-danger"> 
                    <i class="fa-solid fa-eraser me-1"></i> Limpiar
